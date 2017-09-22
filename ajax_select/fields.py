@@ -387,7 +387,7 @@ class AutoCompleteField(forms.CharField):
             widget_kwargs['attrs'] = kwargs.pop('attrs')
         widget = AutoCompleteWidget(channel, **widget_kwargs)
 
-        defaults = {'max_length': 255, 'widget': widget}
+        defaults = {'max_length': 500, 'widget': widget}
         defaults.update(kwargs)
 
         super(AutoCompleteField, self).__init__(*args, **defaults)
