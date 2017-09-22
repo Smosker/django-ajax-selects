@@ -5,6 +5,10 @@
 .results_on_deck {
   padding: 0.25em 0;
 }
+
+.my_width {
+    width: 300px !important;
+}
 form .aligned .results_on_deck {
   padding-left: 38px;
   margin-left: 7em;
