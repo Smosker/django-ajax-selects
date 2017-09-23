@@ -1,5 +1,5 @@
-<span class="my_width" id="{{ html_id }}_wrapper">
-<input class="my_width" type="text" name="{{name}}_text" id="{{html_id}}_text" value="" autocomplete="off" {{ extra_attrs }} />
+<span id="{{ html_id }}_wrapper">
+<input class="{{html_id}}_text" type="text" name="{{name}}_text" id="{{html_id}}_text" value="" autocomplete="off" {{ extra_attrs }} />
 {% if add_link %}
 	<a href="{{ add_link }}" class="btn btn-xs add-another addlink" id="add_{{ html_id }}" onclick="return showAddAnotherPopup(this);"> <span class="glyphicon glyphicon-plus"></span> Добавить</a>
 {% endif %}
