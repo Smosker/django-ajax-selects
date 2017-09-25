@@ -9,6 +9,11 @@
 .service_description {
     width: 700px !important;
 }
+
+.department {
+    width: 700px !important;
+}
+
 form .aligned .results_on_deck {
   padding-left: 38px;
   margin-left: 7em;
