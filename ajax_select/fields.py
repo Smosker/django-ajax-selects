@@ -20,7 +20,7 @@ except ImportError:
     from django.core.urlresolvers import reverse
 
 
-as_default_help = 'Enter text to search.'
+as_default_help = ''
 
 
 def _media(self):
