@@ -437,7 +437,7 @@ def make_plugin_options(lookup, channel_name, widget_plugin_options, initial):
     po.update(getattr(lookup, 'plugin_options', {}))
     po.update(widget_plugin_options)
     if not po.get('source'):
-        po['source'] = reverse('ajax_lookup', kwargs={'channel': channel_name})
+        po['source'] = reverse('suggest:ajax_lookup', kwargs={'channel': channel_name})
 
     # allow html unless explicitly set
     if po.get('html') is None:
